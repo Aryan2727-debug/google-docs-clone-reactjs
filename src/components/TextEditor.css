@@ -1,0 +1,10 @@
+/* CSS file for the text editor */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.textfield{
+    position: absolute;
+    top: 0%;
+    left: 16.3%;
+    width: 845px;
+}

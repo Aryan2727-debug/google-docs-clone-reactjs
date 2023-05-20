@@ -1,0 +1,52 @@
+/* CSS file for the Sidebar */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.sidebar-container{
+    background-color: #f2f2f2;
+    height: 600px;
+    width: 59.7px;
+    position: absolute;
+    top: 20%;
+    left: 85%;
+}
+
+.sidebar-list{
+    position: absolute;
+    top: 2%;
+    left: -50%;
+    list-style-type: none;
+}
+
+.sidebar-container-left{
+    background-color: #f2f2f2;
+    height: 528px;
+    width: 30px;
+    position: absolute;
+    top: 30.5%;
+    left: 9%;
+    border-right: 1px solid black;
+    border-left: 1px solid gray;
+}
+
+.hamburger-container{
+    background-color: #f2f2f2;
+    height: 528px;
+    width: 80px;
+    position: absolute;
+    top: 0%;
+    left: 101%;
+    border-right: 1px solid black;
+}
+
+.sidebar-extended-container{
+    background-color: #f2f2f2;
+    height: 500px;
+    width: 200px;
+    position: absolute;
+    top: 4.2%;
+    left: 3185%;
+    border-right: 5px solid lightgray;
+    border-left: 1px solid black;
+}
+

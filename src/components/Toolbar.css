@@ -1,0 +1,170 @@
+/* CSS file for the Toolbar */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.toolbar-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10%;
+    left: 9%;
+    height: 150px;
+    width: 80%;
+    background-color: #f2f2f2;
+}
+
+.logo-image{
+    position: absolute;
+    top: 15%;
+    left: 2%;
+    height: 40px;
+    width: 40px;
+}
+
+.toolbar-heading{
+    position: absolute;
+    top: -5%;
+    left: 6%;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.table {
+	display: table;
+	margin: 0 auto;
+}
+
+.toolbar-list {
+    position: absolute;
+    top: 6%;
+    left: 2.8%;
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+}
+	
+.toolbar-list li {
+	display: inline;
+}
+
+.toolbar-list li{
+    border: 1px solid #f2f2f2;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.toolbar-list li:hover{
+    background-color: lightgray;
+}
+
+.star-image{
+    position: absolute;
+    top: 9%;
+    left: 25%;
+    height: 25px;
+    width: 25px;
+}
+
+.chat-image{
+    position: absolute;
+    top: 12%;
+    left: 70%;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.video-image{
+    position: absolute;
+    top: 12%;
+    left: 75%;
+    height: 30px;
+    width: 48px;
+    cursor: pointer;
+}
+
+.share-button{
+    background-color: #87cefa;
+    color: black;
+    position: absolute;
+    top: 7%;
+    left: 79%;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+.person-img{
+    position: absolute;
+    top: 9%;
+    left: 95%;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.tools-div{
+    background-color: #dcdcdc;
+    height: 50px;
+    width: 1125px;
+    border: none;
+    border-radius: 16px;
+    position: absolute;
+    top: 55%;
+    left: 2%;
+}
+
+.tools-list {
+    position: absolute;
+    top: -40%;
+    left: -2%;
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+}
+	
+.tools-list li {
+	display: inline;
+    cursor: pointer;
+}
+
+.scale-list {
+    position: absolute;
+    top: 28%;
+    left: 4%;
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+}
+	
+.scale-list li {
+	display: inline;
+}
+
+.line {
+    margin-top: 8px;
+    height: 10px;
+    width: 930px;
+    background: 
+    repeating-linear-gradient(to right, black   0 1px, transparent 4px 80px),
+    repeating-linear-gradient(to right, black 0 1.5px, transparent 4px 20px) left/100% 70% no-repeat;
+}
+
+.scale-list-down-container{
+    height: 20px;
+    width: 1044px;
+    background-color: #f2f2f2;
+    position: absolute;
+    top: 100%;
+    left: 9%;
+    border-top: 1px solid black;
+}
+
