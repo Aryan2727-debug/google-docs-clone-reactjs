@@ -9,6 +9,10 @@
 4) To display the text area, the TextField component from the React Material-UI library has been used.
 <br>
 
+## Deployed on Netlify - https://google-docs-clone-reactjs.netlify.app/
+
+<br>
+
 ## Available Scripts
 
 In the project directory, you can run:
